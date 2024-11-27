@@ -15,11 +15,11 @@
 <body>
 
   <!-- navbar -->
-  <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4">
+  <nav class="navbar navbar-expand-md navbar-light bg-light pt-5 pb-4">
     <div class="container-xxl">
       <!-- navbar brand / title -->
       <a class="navbar-brand" href="#intro">
-        <img src="/assets/net_ninja_logo.png" alt="logo" width="70" class="d-inline-block align-text-center">
+        <img src="/assets/logo_ev.png" alt="logo" width="70" class="d-inline-block align-text-center">
       </a>
 
       <!-- toggle button for mobile nav -->
@@ -31,19 +31,19 @@
       <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#topics">About The Book</a>
+            <a class="nav-link" href="#topics">Kursuste sisu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#reviews">Reviews</a>
+            <a class="nav-link" href="#reviews">Tagasiside</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Get in Touch</a>
+            <a class="nav-link" href="#contact">Kontakt</a>
           </li>
           <li class="nav-item d-md-none">
-            <a class="nav-link" href="#pricing">Pricing</a>
+            <a class="nav-link" href="#pricing">Paketid</a>
           </li>
           <li class="nav-item ms-2 d-none d-md-inline">
-            <a class="btn btn-warning" href="#pricing">Buy now</a>
+            <a class="btn btn-outline-danger" href="#pricing">Osta</a>
           </li>
           
         </ul>
@@ -51,25 +51,25 @@
     </div>
   </nav>
     <!-- main image & intro text -->
-    <section id="intro">
+    <section id="intro" class="bg-light">
         <div class="container-lg">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-5 text-center text-md-start">
+                  <h3>ev designs</h3>
                     <h1>
-                        <div class="display-2">ev designs</div>
-                        <div class="display-5 text-muted">Disainikursused</div>
+                        <div class="display-2">Graafilise disaini kursused</div>
                     </h1>
                     <p class="lead my-4 text-muted">Loome koos loovaid lahendusi!</p>
-                    <a href="#pricing" class="btn btn-warning btn-lg">Tutvu pakettidega</a>
+                    <a href="#pricing" class="btn btn-danger btn-lg text-light">Tutvu pakettidega</a>
                     <!-- open sidebar / offcanvas -->
                     <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
-                      Explore my other books
+                      Avasta meie teisi teenuseid
                     </a>
                 </div>
                 <div class="col-md-5 text-center d-none d-md-block">
                   <!-- tooltip -->
-                   <span class="tt" data-bs-placement="bottom" title="Net Ninja Book Cover">
-                    <img class="img-fluid" src="/assets/ebook-cover.png" alt="ebook cover">
+                   <span class="tt" data-bs-placement="bottom" title="Illustratsioon">
+                    <img class="img-fluid" src="/assets/illustratsioon_avaleht.png" alt="illustratsioon arvuti taga istuvast tüdrukust">
                    </span>
                 </div>
             </div>
@@ -77,11 +77,11 @@
     </section>
 
     <!-- pricing plans -->
-    <section id="pricing" class="bg-light mt-5">
+    <section id="pricing" class="bg-primary">
     <div class="container-lg">
-      <div class="text-center">
-        <h2>Paketid <i class="bi bi-piggy-bank"></i></h2>
-        <p class="lead text-muted">Leia endale sobiv kursuse pakett</p>
+      <div class="text-center text-light">
+        <h2>Paketid</h2>
+        <p class="lead">Leia endale sobiv kursuse pakett</p>
       </div>
 
       <div class="row my-5 g-0 align-items-center justify-content-center">
@@ -133,15 +133,15 @@
   </section>
 
   <!--topics at a glance-->
-  <section id="topics">
+  <section id="topics" class="bg-light">
     <div class="container-md">
       <div class="text-center">
-        <h2>Inside the Book <i class="bi bi-book"></i></h2>
-        <p class="lead text-muted">A quick glance at the topics you'll learn</p>
+        <h2>Kursuste sisu</h2>
+        <p class="lead text-muted">Mida meie kursustel õppida saab?</p>
       </div>
       <div class="row my-5 g-5 justify-content-around align-items-center">
         <div class="col-6 col-lg-4">
-          <img src="/assets/kindle.png" class="img-fluid" alt="ebook">
+          <img src="/assets/illustratsioon_02.png" class="img-fluid" alt="illustratsioon kosmoseelementidega">
         </div>
 
         <div class="col-lg-6">
@@ -150,7 +150,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="heading-1">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
-                Chapter 1 - Your First Web Page
+                Bränding algajale
               </button>
             </h2>
             <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters">
@@ -163,7 +163,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="heading-2">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">
-                Chapter 2 - Mastering CSS
+                Bränding edasijõudnutele
               </button>
             </h2>
             <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
@@ -176,7 +176,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="heading-3">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-1">
-                Chapter 3 - The Power of JavaScript
+                Brändingu meistriklass
               </button>
             </h2>
             <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#chapters">
@@ -186,32 +186,7 @@
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="heading-4">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-4" aria-expanded="false" aria-controls="chapter-4">
-                Chapter 4 - Storing Data (Firebase Databases)
-              </button>
-            </h2>
-            <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#chapters">
-              <div class="accordion-body">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="heading-5">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-5" aria-expanded="false" aria-controls="chapter-5">
-                Chapter 5 - User Authentication
-              </button>
-            </h2>
-            <div id="chapter-5" class="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#chapters">
-              <div class="accordion-body">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-              </div>
-            </div>
-          </div>
+          
         </div>
 
       </div>
@@ -220,11 +195,11 @@
 </section>
 
 <!-- reviews list -->
-<section id="reviews" class="bg-altlight">
+<section id="reviews" class="bg-primary">
   <div class="container-lg">
-    <div class="text-center">
-      <h2>Book Reviews <i class="bi bi-stars text-altdark"></i></h2>
-      <p class="lead">What my students have said about the book...</p>
+    <div class="text-center text-light">
+      <h2>Kursuste tagasiside</h2>
+      <p class="lead">Mida meie kursuse läbijad on tagasisidemeks andnud</p>
     </div>
 
     <div class="row justify-content-center my-5">
@@ -238,9 +213,9 @@
               <i class="bi bi-star-fill text-altdark"></i>
               <i class="bi bi-star-fill text-altdark"></i>
             </div>
-            <h5 class="mb-1">A must-buy for every aspiring web dev</h5>
+            <h5 class="mb-1">Suurepärane kursus</h5>
             <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
-            <small>Review by Mario</small>
+            <small>Tagasiside "Bränding edasijõudnutele" läbinud Nataljalt</small>
           </div>
           <div class="list-group-item py-3">
             <div class="pb-2">
@@ -250,33 +225,9 @@
               <i class="bi bi-star-fill"></i>
               <i class="bi bi-star-fill"></i>
             </div>
-            <h5 class="mb-1">Amazing book!!!!</h5>
+            <h5 class="mb-1">Bränding algajale - konkreetne ja arusaadav</h5>
             <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
-            <small>Review by Mikk</small>
-          </div>
-          <div class="list-group-item py-3">
-            <div class="pb-2">
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-half"></i>
-            </div>
-            <h5 class="mb-1">A good read for developers</h5>
-            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
-            <small>Review by Liz</small>
-          </div>
-          <div class="list-group-item py-3">
-            <div class="pb-2">
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-            </div>
-            <h5 class="mb-1">Best book I've read in a while</h5>
-            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
-            <small>Review by Mia</small>
+            <small>Tagasiside "Bränding edasijõudnutele" läbinud Liisilt</small>
           </div>
           <div class="list-group-item py-3">
             <div class="pb-2">
@@ -286,9 +237,33 @@
               <i class="bi bi-star-fill"></i>
               <i class="bi bi-star-half"></i>
             </div>
-            <h5 class="mb-1">A Triumph of Imagination and Emotion</h5>
+            <h5 class="mb-1">Väga hea kursus</h5>
             <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
-            <small>Review by Marcus</small>
+            <small>Tagasiside "Bränding algajale" läbinud Peetrilt</small>
+          </div>
+          <div class="list-group-item py-3">
+            <div class="pb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <h5 class="mb-1">Üks parimaid kursuseid, mis kujundaja leida võib</h5>
+            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
+            <small>Tagasiside "Bränding algalaje" läbinud Mialt</small>
+          </div>
+          <div class="list-group-item py-3">
+            <div class="pb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+            </div>
+            <h5 class="mb-1">Jäin rahule</h5>
+            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
+            <small>Tagasiside "Brändingu meistriklassi" läbinud Annalt</small>
           </div>
         </div>
       </div>
@@ -298,7 +273,7 @@
 
 <!-- contact form -->
 <!-- form-control, form-label, form-select, input-group, input-group-text -->
-<section id="contact">
+<section id="contact" class="bg-light">
   <div class="container-lg">
     
     <div class="text-center">
@@ -309,10 +284,10 @@
       <div class="col-lg-6">
         
         <form>
-          <label for="email" class="form-label">Emaili address:</label>
+          <label for="email" class="form-label">Emaili address</label>
           <div class="input-group mb-4">
             <span class="input-group-text">
-              <i class="bi bi-envelope-fill text-secondary"></i>
+              <i class="bi bi-envelope-fill text-danger"></i>
             </span>
             <input type="text" id="email" class="form-control" placeholder="nimi@mail.ee" />
             <!-- tooltip -->
@@ -325,12 +300,12 @@
           <label for="name" class="form-label">Nimi</label>
           <div class="mb-4 input-group">
             <span class="input-group-text">
-              <i class="bi bi-person-fill text-secondary"></i>
+              <i class="bi bi-person-fill text-danger"></i>
             </span>
             <input type="text" id="name" class="form-control" placeholder="Nimi" />
             <!-- tooltip -->
             <span class="input-group-text">
-              <span class="tt" data-bs-placement="bottom" title="Write your first name">
+              <span class="tt" data-bs-placement="bottom" title="Sisesta oma eesnimi">
                 <i class="bi bi-question-circle text-muted"></i>
               </span>
             </span>
@@ -338,20 +313,20 @@
           <label for="subject" class="form-label">Mis teema küsimus sul on?</label>
           <div class="mb-4 input-group">
             <span class="input-group-text">
-              <i class="bi bi-chat-right-dots-fill text-secondary"></i>
+              <i class="bi bi-chat-right-dots-fill text-danger"></i>
             </span>
             <select class="form-select" id="subject">
-              <option value="pricing" selected>Pricing query</option>
-              <option value="content">Content query</option>
-              <option value="other">Other query</option>
+              <option value="pricing" selected>Hinnapäring</option>
+              <option value="content">Sisupäring</option>
+              <option value="other">Muu päring</option>
             </select>
           </div>
           <div class="mb-4 mt-5 form-floating">
             <textarea class="form-control" id="query" style="height: 140px" placeholder="query"></textarea>
-            <label for="query">Your query...</label>
+            <label for="query">Sinu sõnum</label>
           </div>
           <div class="mb-4 text-center">
-            <button type="submit" class="btn btn-secondary">Submit</button>
+            <button type="submit" class="btn text-light btn-danger">Saada</button>
           </div>
         </form>
       </div>
@@ -360,17 +335,16 @@
 </section>
 
  <!-- get updates / modal trigger -->
-  <section class="bg-light">
+  <section class="text-white bg-primary">
     <div class="container">
       <div class="text-center">
-        <h2>Stay in The Loop</h2>
-        <p class="lead">Get the latest updates as they happen...</p>
+        <h2>Liitu uudiskirjaga</h2>
+        <p class="lead">Saadame sooduspakkumisi ja uudiseid</p>
       </div>
       <div class="row justify-content-center">
         <div class="col-md-8 text-center">
-          <p class="text-muted my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero exercitationem voluptatibus porro, hic asperiores fuga illo voluptates obcaecati deleniti veritatis sunt saepe quasi deserunt ex ipsum. Est possimus, aspernatur, vitae eligendi rem odit quaerat, ipsum pariatur ratione maxime delectus fuga minus accusamus dolores iusto maiores accusantium cumque magnam placeat quia!</p>
-          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">
-            Register for Updates
+          <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#reg-modal">
+            Liitu uudiskirjaga
           </button>
         </div>
       </div>
@@ -419,6 +393,11 @@
        </div>
     </div>
   </div>
+
+  <!-- Footer -->
+  <footer class="text-center p-3 bg-light">
+    © 2024 ev designs
+  </footer>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

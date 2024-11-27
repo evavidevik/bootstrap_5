@@ -1,13 +1,14 @@
 // custom variables
-$primary: #c29938;
-$light: #fbf5e5;
+$primary: #2955ae;
+$light: #edece8;
+$danger: #e2473e;
 
 // import the functions & variables
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 
 $custom-theme-colors: (
-    "altlight": #f2ebfa,
+    "altlight": #ead2d2,
     "altdark": #522192
 );
 
